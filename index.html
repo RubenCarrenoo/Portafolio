@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubén Santiago Carreño Torres | Desarrollador Junior</title>
+    <meta name="description" content="Portafolio profesional de Rubén Santiago Carreño Torres, Desarrollador Junior. Conoce mis proyectos y habilidades en Python, JS, Backend, Bases de Datos e IA.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements for Glowing Effect -->
+    <div class="glow-bg">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+        <div class="glow-sphere sphere-3"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Rubén<span class="logo-accent">.S /&gt;</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#trayectoria" class="nav-link">Trayectoria</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contacto" class="btn btn-primary btn-sm">Contáctame</a>
+                <button class="mobile-nav-toggle" aria-label="Abrir menú de navegación">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="section hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge"><i class="fa-solid fa-code"></i> Disponible para Proyectos</span>
+                    <h1 class="hero-title">
+                        Hola, soy <br>
+                        <span class="text-gradient">Rubén Santiago</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typewriter-text" data-words='["Desarrollador Junior", "Especialista en Python", "Creador de Soluciones Backend", "Integrador de IA", "Estudiante de Programación Avanzada"]'></span>
+                    </h2>
+                    <p class="hero-description">
+                        Apasionado por la algoritmia y la ingeniería de software. Construyo soluciones eficientes y automatizadas que integran bases de datos, APIs robustas y herramientas de Inteligencia Artificial de vanguardia.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#proyectos" class="btn btn-primary">Explorar Proyectos <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contacto" class="btn btn-secondary">Hablemos</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/RubenCarrenoo" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:rubencarto2@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:3156936214" class="social-icon" aria-label="Teléfono"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <div class="avatar-glow"></div>
+                        <img src="avatar.png" alt="Rubén Santiago Carreño Torres" class="hero-avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="sobre-mi" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Presentación</span>
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info card">
+                        <p class="about-text">
+                            Soy estudiante de **Técnico en Programación Avanzada** con un profundo enfoque en el desarrollo backend. Me destaco por mi disciplina, proactividad y gran capacidad de adaptación, características que me impulsan hacia la excelencia técnica y el aprendizaje continuo en entornos altamente dinámicos.
+                        </p>
+                        <p class="about-text">
+                            Como **Bachiller Técnico Empresarial Bilingüe**, cuento con un nivel de inglés intermedio (B1) que me permite navegar documentación técnica con fluidez y colaborar eficazmente en equipos de trabajo globales.
+                        </p>
+                        <p class="about-text">
+                            Busco oportunidades que me permitan aplicar mi lógica y conocimientos para diseñar, estructurar y mantener sistemas de software eficientes, con miras a consolidarme como desarrollador **Full Stack**.
+                        </p>
+                        <div class="personal-details">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>TV 93 # 34 - 180, Colombia</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-id-card"></i>
+                                <span>ID: 1099422180</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <!-- Idiomas -->
+                        <div class="card stat-card">
+                            <h3>Idiomas</h3>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Español</span>
+                                    <span class="lang-level">Nativo (100%)</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Inglés</span>
+                                    <span class="lang-level">B1 Intermedio (65%)</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Competencias -->
+                        <div class="card stat-card">
+                            <h3>Competencias Profesionales</h3>
+                            <div class="competencies-tags">
+                                <span class="tag">Liderazgo</span>
+                                <span class="tag">Comunicación Efectiva</span>
+                                <span class="tag">Creatividad</span>
+                                <span class="tag">Proactividad</span>
+                                <span class="tag">Paciencia</span>
+                                <span class="tag">Adaptabilidad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades Section -->
+        <section id="habilidades" class="section skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Conocimientos</span>
+                    <h2 class="section-title">Habilidades Técnicas</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="backend">Backend & DB</button>
+                    <button class="filter-btn" data-filter="tools">Herramientas & Agilidad</button>
+                    <button class="filter-btn" data-filter="ai">IA & Automatización</button>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Python -->
+                    <div class="skill-card card" data-category="backend">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <h3 class="skill-name">Python</h3>
+                        <p class="skill-desc">Programación robusta con estructuras de control, funciones de alto nivel y algoritmos optimizados.</p>
+                    </div>
+                    <!-- HTML5 -->
+                    <div class="skill-card card" data-category="frontend">
+                        <div class="skill-icon"><i class="fa-html5 fa-brands"></i></div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">Estructuración web moderna con marcado semántico y accesibilidad integrada.</p>
+                    </div>
+                    <!-- CSS3 -->
+                    <div class="skill-card card" data-category="frontend">
+                        <div class="skill-icon"><i class="fa-css3-alt fa-brands"></i></div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">Estilos sofisticados, animaciones personalizadas, responsive design y layouts (Grid/Flexbox).</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                    <!-- JavaScript -->
+                    <div class="skill-card card" data-category="frontend">
+                        <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-desc">Interactividad avanzada del cliente, manipulación del DOM y peticiones asíncronas.</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                    <!-- PSeInt -->
+                    <div class="skill-card card" data-category="backend">
+                        <div class="skill-icon"><i class="fa-solid fa-code-fork"></i></div>
+                        <h3 class="skill-name">PSeInt</h3>
+                        <p class="skill-desc">Fundamentos sólidos de lógica de programación y flujos estructurados mediante pseudocódigo.</p>
+                    </div>
+                    <!-- Bases de Datos -->
+                    <div class="skill-card card" data-category="backend">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="skill-name">Bases de Datos</h3>
+                        <p class="skill-desc">Diseño de bases de datos relacionales, consultas optimizadas, integridad y normalización.</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                    <!-- Desarrollo Backend -->
+                    <div class="skill-card card" data-category="backend">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3 class="skill-name">Desarrollo Backend</h3>
+                        <p class="skill-desc">Arquitecturas de servidor, enrutamiento, controladores e integración con persistencia de datos.</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                    <!-- GitHub -->
+                    <div class="skill-card card" data-category="tools">
+                        <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+                        <h3 class="skill-name">GitHub</h3>
+                        <p class="skill-desc">Gestión avanzada de código, flujos colaborativos de ramas (Git Flow) y revisión de código.</p>
+                    </div>
+                    <!-- Scrum -->
+                    <div class="skill-card card" data-category="tools">
+                        <div class="skill-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        <h3 class="skill-name">Scrum</h3>
+                        <p class="skill-desc">Colaboración bajo marcos ágiles, sprints estructurados y entrega iterativa de valor.</p>
+                    </div>
+                    <!-- Inteligencia Artificial -->
+                    <div class="skill-card card" data-category="ai">
+                        <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3 class="skill-name">Inteligencia Artificial</h3>
+                        <p class="skill-desc">Conceptos clave de modelos predictivos y generativos aplicados a resolver tareas.</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                    <!-- IA en Proyectos Web -->
+                    <div class="skill-card card" data-category="ai">
+                        <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h3 class="skill-name">Uso de IA en Web</h3>
+                        <p class="skill-desc">Integración de modelos fundacionales mediante APIs para enriquecer aplicaciones web.</p>
+                        <span class="skill-badge-new">Curso Completado</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos Section -->
+        <section id="proyectos" class="section projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portafolio</span>
+                    <h2 class="section-title">Experiencia Práctica por Materias</h2>
+                    <p class="section-subtitle-description">He desarrollado proyectos aplicativos por cada una de las materias cursadas para consolidar mi formación técnica.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-filter">
+                    <button class="project-filter-btn active" data-proj-filter="all">Todos los Proyectos</button>
+                    <button class="project-filter-btn" data-proj-filter="logic">Lógica & Python</button>
+                    <button class="project-filter-btn" data-proj-filter="web">Web & JS</button>
+                    <button class="project-filter-btn" data-proj-filter="backend">Backend & DB</button>
+                    <button class="project-filter-btn" data-proj-filter="agile">Agilidad & Git</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- 1. Introducción a la programación -->
+                    <article class="project-card card" data-proj-category="logic">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-code"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">1. Introducción a la Programación</span>
+                            <h3>Simulador Algorítmico PSeInt</h3>
+                            <p class="project-desc">Diseño de algoritmos secuenciales, condicionales y cíclicos en pseudocódigo para resolver cálculos matemáticos complejos e interactivos.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">PSeInt</span>
+                                <span class="proj-tag">Lógica</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/git" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 2. Python I -->
+                    <article class="project-card card" data-proj-category="logic">
+                        <div class="project-image-placeholder">
+                            <i class="fa-brands fa-python"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">2. Python I</span>
+                            <h3>Manejador de Consola & Datos</h3>
+                            <p class="project-desc">Scripts CLI en Python con menús interactivos, manejo estructurado de flujos mediante condicionales avanzados y manipulación de listas y diccionarios.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Python</span>
+                                <span class="proj-tag">Estructuras</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/Ruben_Carreno_gitflow" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 3. HTML + CSS -->
+                    <article class="project-card card" data-proj-category="web">
+                        <div class="project-image-placeholder">
+                            <i class="fa-css3-alt fa-brands"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">3. HTML + CSS</span>
+                            <h3>Maquetación de Landing Page</h3>
+                            <p class="project-desc">Diseño responsivo móvil-primero utilizando CSS Flexbox y Grid Layout. Incorpora gradientes, variables CSS y transiciones interactivas elegantes.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">HTML5</span>
+                                <span class="proj-tag">CSS3</span>
+                                <span class="proj-tag">Responsive</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/Proyecto-html-ropa" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4. Scrum y Metodologías ágiles -->
+                    <article class="project-card card" data-proj-category="agile">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-users-gear"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">4. Scrum & Metodologías Ágiles</span>
+                            <h3>Simulación de Tablero Scrum</h3>
+                            <p class="project-desc">Coordinación de sprints estudiantiles mediante tableros visuales, estimaciones en puntos de historia, retrospectivas y definición de Done.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Scrum</span>
+                                <span class="proj-tag">Planificación</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo" target="_blank" rel="noopener noreferrer" class="project-link">Perfil GitHub <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 5. GitHub y Control de versiones -->
+                    <article class="project-card card" data-proj-category="agile">
+                        <div class="project-image-placeholder">
+                            <i class="fa-brands fa-github"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">5. GitHub & Control de Versiones</span>
+                            <h3>Flujo de Integración Git Flow</h3>
+                            <p class="project-desc">Proyecto con gestión colaborativa de ramas (main, develop, feature), resolución lógica de conflictos de fusión y tags de versiones.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Git</span>
+                                <span class="proj-tag">GitHub</span>
+                                <span class="proj-tag">Collaborative</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/examen_git_rubencarre-o_z2" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 6. JavaScript -->
+                    <article class="project-card card" data-proj-category="web">
+                        <div class="project-image-placeholder">
+                            <i class="fa-brands fa-js"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">6. JavaScript</span>
+                            <h3>Dashboard Dinámico de Tareas</h3>
+                            <p class="project-desc">Aplicación interactiva que realiza manipulación directa del DOM, filtrado dinámico de ítems y persistencia del estado en LocalStorage.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">JavaScript</span>
+                                <span class="proj-tag">DOM</span>
+                                <span class="proj-tag">LocalStorage</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/Reto-java" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 7. Introducción al Backend y Bases de Datos -->
+                    <article class="project-card card" data-proj-category="backend">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-database"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">7. Backend & Bases de Datos</span>
+                            <h3>API REST de Inventario con SQL</h3>
+                            <p class="project-desc">Servidor API en Python con persistencia en base de datos relacional. Soporta operaciones CRUD, encriptación y diseño lógico de tablas.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Python API</span>
+                                <span class="proj-tag">SQL</span>
+                                <span class="proj-tag">Bases de Datos</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/Base-de-datos" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 8. Uso de la IA en Proyectos Web -->
+                    <article class="project-card card" data-proj-category="web">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-robot"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">8. Uso de IA en Proyectos Web</span>
+                            <h3>Asistente Chatbot Web Integrado</h3>
+                            <p class="project-desc">Aplicación web que conecta una interfaz responsiva con la API de un modelo de lenguaje (LLM) para proveer soporte contextual en vivo.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">AI API</span>
+                                <span class="proj-tag">JavaScript</span>
+                                <span class="proj-tag">CSS Glass</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo/API-COLOMBIA" target="_blank" rel="noopener noreferrer" class="project-link">Repositorio <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 9. Inteligencia Artificial 1 -->
+                    <article class="project-card card" data-proj-category="logic">
+                        <div class="project-image-placeholder">
+                            <i class="fa-solid fa-brain"></i>
+                            <div class="project-overlay">
+                                <span class="btn btn-sm btn-primary">Ver Detalles</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="materia-badge">9. Inteligencia Artificial 1</span>
+                            <h3>Modelador Predictivo Básico</h3>
+                            <p class="project-desc">Script en Python enfocado en comprender el flujo de preparación de datos, entrenamiento conceptual de un modelo lineal e inferencia lógica.</p>
+                            <div class="project-tags">
+                                <span class="proj-tag">Python</span>
+                                <span class="proj-tag">IA Conceptos</span>
+                                <span class="proj-tag">Data Prep</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/RubenCarrenoo" target="_blank" rel="noopener noreferrer" class="project-link">Perfil GitHub <i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trayectoria Section (Educación & Experiencia) -->
+        <section id="trayectoria" class="section timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Formación</span>
+                    <h2 class="section-title">Trayectoria Educativa</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline-grid">
+                    <!-- Educación -->
+                    <div class="timeline-col">
+                        <h3 class="timeline-header-title"><i class="fa-solid fa-graduation-cap"></i> Educación Formal</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-badge"><i class="fa-solid fa-spinner fa-spin"></i></div>
+                                <div class="timeline-card card">
+                                    <span class="timeline-date">2026 (En Curso)</span>
+                                    <h4>Técnico en Programación Avanzada</h4>
+                                    <p class="timeline-institution">Campuslands</p>
+                                    <p class="timeline-desc">Estudios exhaustivos en algoritmia, lenguajes frontend y backend, normalización de bases de datos relacionales, gestión del código y aplicación práctica de tecnologías de inteligencia artificial.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-badge"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-card card">
+                                    <span class="timeline-date">2025</span>
+                                    <h4>Bachiller Técnico Empresarial Bilingüe</h4>
+                                    <p class="timeline-institution">Gimnasio Superior Empresarial Bilingüe</p>
+                                    <p class="timeline-desc">Formación orientada a la administración de empresas, emprendimiento y desarrollo del idioma inglés en nivel B1 para comunicación y gestión corporativa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experiencia Académica Aplicada -->
+                    <div class="timeline-col">
+                        <h3 class="timeline-header-title"><i class="fa-solid fa-briefcase"></i> Experiencia y Hitos</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-badge"><i class="fa-solid fa-circle-dot"></i></div>
+                                <div class="timeline-card card">
+                                    <span class="timeline-date">2025 - Presente</span>
+                                    <h4>Desarrollo CRUD y Persistencia de Datos</h4>
+                                    <p class="timeline-institution">Proyectos de Aula</p>
+                                    <p class="timeline-desc">Construcción de múltiples sistemas prácticos utilizando persistencia plana (JSON) y bases de datos relacionales (SQL) integradas a lógica basada en Python.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-badge"><i class="fa-solid fa-circle-dot"></i></div>
+                                <div class="timeline-card card">
+                                    <span class="timeline-date">2025 - Presente</span>
+                                    <h4>Maquetación Web e Interactividad</h4>
+                                    <p class="timeline-institution">Proyectos Front-End</p>
+                                    <p class="timeline-desc">Creación de interfaces web responsive elegantes mediante HTML5 semántico y CSS3 personalizado, enriquecidas con manipulación dinámica mediante JavaScript en cliente.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-badge"><i class="fa-solid fa-circle-dot"></i></div>
+                                <div class="timeline-card card">
+                                    <span class="timeline-date">2025 - Presente</span>
+                                    <h4>Trabajo bajo Metodologías Ágiles</h4>
+                                    <p class="timeline-institution">Prácticas de Integración</p>
+                                    <p class="timeline-desc">Colaboración continua en repositorios remotos simulando flujos productivos con ramas Git Flow y planificación iterativa en equipos Scrum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referencias & Contacto Section -->
+        <section id="contacto" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Conexión</span>
+                    <h2 class="section-title">Referencias y Contacto</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- Referencias Profesionales -->
+                <h3 class="references-title"><i class="fa-solid fa-users"></i> Referencias Familiares y Profesionales</h3>
+                <div class="references-grid">
+                    <div class="reference-card card">
+                        <div class="ref-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                            <h4>Giselle Dayanna Salinas</h4>
+                            <p class="ref-occupation">Contador Público</p>
+                            <a href="tel:3054060320" class="ref-contact"><i class="fa-solid fa-phone"></i> (305) 406-0320</a>
+                        </div>
+                    </div>
+                    <div class="reference-card card">
+                        <div class="ref-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <div>
+                            <h4>Claudia Viviana Torres</h4>
+                            <p class="ref-occupation">Administradora de Empresas</p>
+                            <a href="tel:3003053897" class="ref-contact"><i class="fa-solid fa-phone"></i> (300) 305-3897</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulario de Contacto -->
+                <div class="contact-grid">
+                    <div class="contact-info-panel card">
+                        <h3>¿Conectamos?</h3>
+                        <p>Estoy entusiasmado por iniciar mi carrera laboral como Desarrollador Junior, aprender de equipos experimentados y aportar valor mediante mi pasión por el código limpio y estructurado.</p>
+                        
+                        <div class="contact-methods">
+                            <a href="mailto:rubencarto2@gmail.com" class="method-item">
+                                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="method-details">
+                                    <span class="method-title">Correo Electrónico</span>
+                                    <span class="method-val">rubencarto2@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:3156936214" class="method-item">
+                                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="method-details">
+                                    <span class="method-title">Teléfono Móvil</span>
+                                    <span class="method-val">+57 (315) 693-6214</span>
+                                </div>
+                            </a>
+                            <div class="method-item">
+                                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="method-details">
+                                    <span class="method-title">Dirección de Contacto</span>
+                                    <span class="method-val">TV 93 # 34 - 180, Colombia</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="name">Tu Nombre</label>
+                                    <input type="text" id="name" required placeholder="Ej. Juan Pérez">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Tu Correo</label>
+                                    <input type="email" id="email" required placeholder="nombre@correo.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" id="subject" required placeholder="Asunto del mensaje">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" required rows="4" placeholder="Escribe tu propuesta o mensaje aquí..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Enviar Mensaje</span> <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div class="form-feedback hidden" id="form-feedback"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bottom">
+        <div class="container footer-content">
+            <p>&copy; 2026 Rubén Santiago Carreño Torres. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="https://github.com/RubenCarrenoo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
