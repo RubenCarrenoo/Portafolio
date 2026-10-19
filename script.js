@@ -63,21 +63,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const filterValue = button.getAttribute('data-filter');
 
             skillCards.forEach(card => {
+                if (card._filterTimeout) {
+                    clearTimeout(card._filterTimeout);
+                    card._filterTimeout = null;
+                }
                 const category = card.getAttribute('data-category');
                 
-                // Reset card styles first
-                card.style.display = 'block';
-                card.style.opacity = '1';
-                card.style.transform = 'scale(1)';
-
-                if (filterValue === 'all') {
+                if (filterValue === 'all' || category === filterValue) {
                     card.style.display = 'block';
-                } else if (category === filterValue) {
-                    card.style.display = 'block';
+                    requestAnimationFrame(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    });
                 } else {
                     card.style.opacity = '0';
-                    card.style.transform = 'scale(0.8)';
-                    setTimeout(() => {
+                    card.style.transform = 'scale(0.85)';
+                    card._filterTimeout = setTimeout(() => {
                         card.style.display = 'none';
                     }, 200);
                 }
@@ -99,21 +100,22 @@ document.addEventListener('DOMContentLoaded', () => {
             const filterValue = button.getAttribute('data-proj-filter');
 
             projectCards.forEach(card => {
+                if (card._filterTimeout) {
+                    clearTimeout(card._filterTimeout);
+                    card._filterTimeout = null;
+                }
                 const category = card.getAttribute('data-proj-category');
                 
-                // Reset card styles first
-                card.style.display = 'flex';
-                card.style.opacity = '1';
-                card.style.transform = 'scale(1)';
-
-                if (filterValue === 'all') {
+                if (filterValue === 'all' || category === filterValue) {
                     card.style.display = 'flex';
-                } else if (category === filterValue) {
-                    card.style.display = 'flex';
+                    requestAnimationFrame(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    });
                 } else {
                     card.style.opacity = '0';
                     card.style.transform = 'scale(0.85)';
-                    setTimeout(() => {
+                    card._filterTimeout = setTimeout(() => {
                         card.style.display = 'none';
                     }, 250);
                 }
